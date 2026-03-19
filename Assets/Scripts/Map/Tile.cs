@@ -21,6 +21,8 @@ public class Tile : MonoBehaviour
     [SerializeField] Gradient _normalGradient;
     [SerializeField] Gradient _critGradient;
 
+    [SerializeField] GameObject[] _healthIndicators;
+    
     private MMF_FloatingText _floatingText;
 
     private void Start()
@@ -65,6 +67,19 @@ public class Tile : MonoBehaviour
         }
 
         _currentHealth -= finalDamage;
+        
+        if (_currentHealth <= _data.Hp * 0.75f)
+        {
+            _healthIndicators[0].SetActive(true);
+        }
+        if (_currentHealth <= _data.Hp * 0.5f)
+        {
+            _healthIndicators[1].SetActive(true);
+        }
+        if (_currentHealth <= _data.Hp * 0.25f)
+        {
+            _healthIndicators[2].SetActive(true);
+        }
 
         if (_floatingText != null)
         {
