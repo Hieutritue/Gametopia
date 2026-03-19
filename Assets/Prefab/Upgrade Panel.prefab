@@ -5232,7 +5232,7 @@ GameObject:
   - component: {fileID: 8552184428323800098}
   - component: {fileID: 4763784594983985733}
   m_Layer: 5
-  m_Name: Scroll View
+  m_Name: Upgrade Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

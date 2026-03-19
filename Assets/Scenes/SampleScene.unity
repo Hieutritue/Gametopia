@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c7addb037883d48aafe13ac16369a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CooldownImage: {fileID: 0}
+  CooldownImage: {fileID: 2665243890944452799}
   InvertFill: 1
   FollowMouse: 1
   FollowOnlyWhenActive: 0
