@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47d22ad1270342d6b1e23ddf0d333f24, type: 3}
   m_Name: Upgrade_MiningMouseDamage_lv2
   m_EditorClassIdentifier: 
-  InitiallyAvailable: 1
+  InitiallyAvailable: 0
   UpgradeName: Mining Mouse Damage Lv2
-  Icon: {fileID: 21300000, guid: 3d3fe7f79c082264fa15db41a0a7e0d3, type: 3}
+  Icon: {fileID: 21300000, guid: 55bef980cf6bd38469a3021e88b30dc7, type: 3}
   Description: Gain +{0} mining mouse damage
-  Cost: 1
+  Cost: 0
   Value: 2
   NumberType: 0

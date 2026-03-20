@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InitiallyAvailable: 0
   UpgradeName: Gnome
-  Icon: {fileID: -3168733581550749585, guid: f7043b7291f49844b9671b3d3dedcbb5, type: 3}
+  Icon: {fileID: 21300000, guid: 885da23a1cdc0444b9122b579ad2f0ce, type: 3}
   Description: Add a Gnome
   Cost: 2
   Value: -1

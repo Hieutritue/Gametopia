@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InitiallyAvailable: 0
   UpgradeName: Mining Mouse Cooldown Lv4
-  Icon: {fileID: 21300000, guid: ea610ec1b3173fb42b144db4152d69a0, type: 3}
+  Icon: {fileID: 21300000, guid: cbca76c691eeaa9499ceee115d78b85b, type: 3}
   Description: '{0}s cooldown of mining mouse'
   Cost: 1
   Value: -0.2
