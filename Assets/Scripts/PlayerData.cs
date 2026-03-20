@@ -20,6 +20,7 @@ namespace DefaultNamespace
         public float GnomeCritDamage;
         public float GnomeChanceToTriggerAttackTwice;
         public float GnomeJumpCooldown;
+        public bool GnomeCanTriggerExplosion;
 
         [Header("Explosion")] public float ExplosionChance = 0.2f;
         public float ExplosionDamageMult = 0.15f;

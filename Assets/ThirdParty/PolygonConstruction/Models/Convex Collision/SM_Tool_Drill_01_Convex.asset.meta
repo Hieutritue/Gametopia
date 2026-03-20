@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c92779b466240b34db1df710feadd729
+timeCreated: 1588118541
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: POLYGON Construction
+  packageVersion: 1.4.2
+  assetPath: Assets/ThirdParty/PolygonConstruction/Models/Convex Collision/SM_Tool_Drill_01_Convex.asset
+  uploadId: 0

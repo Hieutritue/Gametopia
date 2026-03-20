@@ -15,6 +15,7 @@ public class Gnome : MonoBehaviour
     [SerializeField] private MMF_Player _mineFeedback;
     [SerializeField] private MMF_Player _moveFeedback;
 
+    [SerializeField] private float _cooldownMult = 1;
     private MMF_RotationSpring _rotationSpring;
 
     Rigidbody rb;
@@ -126,7 +127,7 @@ public class Gnome : MonoBehaviour
 
         _mineTimer += Time.deltaTime;
 
-        if (_mineTimer >= PlayerData.Instance.GnomeMineCooldown)
+        if (_mineTimer >= PlayerData.Instance.GnomeMineCooldown * _cooldownMult)
         {
             _mineTimer = 0f;
 
@@ -135,7 +136,8 @@ public class Gnome : MonoBehaviour
                 _mineFeedback?.PlayFeedbacks();
                 targetTile.TakeDamage(PlayerData.Instance.GnomeMineDamage,
                     PlayerData.Instance.GnomeCritChance,
-                    PlayerData.Instance.GnomeCritDamage);
+                    PlayerData.Instance.GnomeCritDamage,
+                    PlayerData.Instance.GnomeCanTriggerExplosion ? PlayerData.Instance.ExplosionChance / 2 : 0f);
 
                 var attackTwiceRoll = Random.value * 100;
                 if (attackTwiceRoll <= PlayerData.Instance.GnomeChanceToTriggerAttackTwice)
@@ -154,7 +156,8 @@ public class Gnome : MonoBehaviour
             _mineFeedback?.PlayFeedbacks();
             tile.TakeDamage(PlayerData.Instance.GnomeMineDamage,
                 PlayerData.Instance.GnomeCritChance,
-                PlayerData.Instance.GnomeCritDamage);
+                PlayerData.Instance.GnomeCritDamage,
+                PlayerData.Instance.GnomeCanTriggerExplosion ? PlayerData.Instance.ExplosionChance / 2 : 0f);
         }
     }
 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cd45bce2c92827a41b1a880ab1ad9152
+timeCreated: 1511314417
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: POLYGON Adventure
+  packageVersion: 1.7.2
+  assetPath: Assets/ThirdParty/PolygonAdventure/Prefabs/Weapons/SM_Wep_Pickaxe_01.prefab
+  uploadId: 0
