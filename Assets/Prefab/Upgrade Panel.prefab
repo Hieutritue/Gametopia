@@ -498,8 +498,8 @@ RectTransform:
   - {fileID: 1688821516660666390}
   - {fileID: 4717541287361557528}
   - {fileID: 3140724074956568030}
-  - {fileID: 2591191655699994336}
   - {fileID: 5752227114446474342}
+  - {fileID: 2591191655699994336}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -774,7 +774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6183192223481618015
 RectTransform:
   m_ObjectHideFlags: 0
@@ -791,9 +791,9 @@ RectTransform:
   m_Father: {fileID: 5752227114446474342}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 5, y: 0}
+  m_SizeDelta: {x: 5, y: -17}
   m_Pivot: {x: 1, y: 0}
 --- !u!222 &8900275698073538986
 CanvasRenderer:
@@ -876,7 +876,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4219499860118846728}
   m_HandleRect: {fileID: 2179028853873117130}
   m_Direction: 2
-  m_Value: 0.9098874
+  m_Value: 0.8604546
   m_Size: 0.3542415
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1781,8 +1781,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 5142658283413576086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.5556459}
+  m_AnchorMax: {x: 1, y: 0.9098874}
   m_AnchoredPosition: {x: 0, y: -1.0000916}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1963,10 +1963,10 @@ MonoBehaviour:
   m_DecelerationRate: 0.135
   m_ScrollSensitivity: 8
   m_Viewport: {fileID: 3471209755874613035}
-  m_HorizontalScrollbar: {fileID: 6072652206626596201}
-  m_VerticalScrollbar: {fileID: 1557509972271893065}
-  m_HorizontalScrollbarVisibility: 2
-  m_VerticalScrollbarVisibility: 2
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 1
+  m_VerticalScrollbarVisibility: 1
   m_HorizontalScrollbarSpacing: -3
   m_VerticalScrollbarSpacing: -3
   m_OnValueChanged:
@@ -1990,7 +1990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5497530323947341530
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2007,9 +2007,9 @@ RectTransform:
   m_Father: {fileID: 5752227114446474342}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: -2, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &6157816975511332068
 CanvasRenderer:
@@ -2093,7 +2093,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6812015806114246375}
   m_Direction: 0
   m_Value: 0.64002216
-  m_Size: 0.36986172
+  m_Size: 0.37018204
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3135,8 +3135,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2741410501432907990}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.40309748, y: 0}
+  m_AnchorMax: {x: 0.77327955, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3213,9 +3213,9 @@ RectTransform:
   m_Father: {fileID: 5752227114446474342}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -17}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3877937712242678799
 CanvasRenderer:
@@ -3412,7 +3412,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1586, y: 114.65612}
+  m_AnchoredPosition: {x: -1586, y: 177.55261}
   m_SizeDelta: {x: 2478.039, y: 1970.3411}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &9046200852210730398
@@ -8324,6 +8324,7 @@ MonoBehaviour:
   _name: {fileID: 4967778266311911172}
   _description: {fileID: 1881792536687727274}
   _cost: {fileID: 1180607292175750325}
+  _offset: {x: 0, y: 0}
 --- !u!114 &4967778266311911172 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3590856195461741485, guid: e5ae70b340b91a843a2c381dcc465b58, type: 3}
