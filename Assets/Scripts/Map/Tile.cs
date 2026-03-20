@@ -22,7 +22,7 @@ public class Tile : MonoBehaviour
     [SerializeField] Gradient _critGradient;
 
     [SerializeField] GameObject[] _healthIndicators;
-    
+
     private MMF_FloatingText _floatingText;
 
     private void Start()
@@ -34,17 +34,19 @@ public class Tile : MonoBehaviour
 
     private void OnMouseDown()
     {
+        // if mouse over UI, ignore
+        if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject()) return;
         if (!MouseDigger.Instance.CanDig) return;
 
         MouseDigger.Instance.StartCooldown();
-        
+
         var damage = PlayerData.Instance.MouseDamage;
 
         if (PlayerData.Instance.AccumulateDamageEnabled)
         {
             damage = MouseDigger.Instance.ConsumeStacksAndGetBonusDamage(damage);
         }
-        
+
         TakeDamage(damage,
             PlayerData.Instance.MouseCritChance,
             PlayerData.Instance.MouseCritDamage,
@@ -67,15 +69,17 @@ public class Tile : MonoBehaviour
         }
 
         _currentHealth -= finalDamage;
-        
+
         if (_currentHealth <= _data.Hp * 0.75f)
         {
             _healthIndicators[0].SetActive(true);
         }
+
         if (_currentHealth <= _data.Hp * 0.5f)
         {
             _healthIndicators[1].SetActive(true);
         }
+
         if (_currentHealth <= _data.Hp * 0.25f)
         {
             _healthIndicators[2].SetActive(true);

@@ -1279,7 +1279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8e45133e0bc4100b013a5eb4f9cba81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gnomePrefab: {fileID: 1596062238455824865, guid: a27cf2f8b631ce043a16164b971df9d2, type: 3}
+  gnomePrefab: {fileID: 5336236166032794544, guid: 4b6dfffae9fa8d148b0e82db4a1c7da4, type: 3}
 --- !u!4 &779141138
 Transform:
   m_ObjectHideFlags: 0

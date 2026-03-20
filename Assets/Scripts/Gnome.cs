@@ -15,7 +15,7 @@ public class Gnome : MonoBehaviour
     [SerializeField] private MMF_Player _mineFeedback;
     [SerializeField] private MMF_Player _moveFeedback;
 
-    [SerializeField] private float _cooldownMult = 1;
+    [SerializeField] private float _cooldownMult;
     private MMF_RotationSpring _rotationSpring;
 
     Rigidbody rb;

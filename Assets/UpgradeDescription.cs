@@ -11,6 +11,7 @@ public class UpgradeDescription : Singleton<UpgradeDescription>
     [SerializeField] private TMP_Text _name;
     [SerializeField] private TMP_Text _description;
     [SerializeField] private TMP_Text _cost;
+    [SerializeField] private Vector2 _offset;
     private UpgradeData _currentUpgrade;
     private bool _maxed;
 
@@ -44,5 +45,26 @@ public class UpgradeDescription : Singleton<UpgradeDescription>
             _cost.SetText("Max Level");
         }
         gameObject.SetActive(true);
+    }
+    void FollowMouse()
+    {
+        if (!gameObject.activeSelf) return;
+
+        RectTransform rect = transform as RectTransform;
+
+        Vector2 pos;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(
+            rect.parent as RectTransform,
+            Input.mousePosition,
+            null,
+            out pos
+        );
+
+        rect.localPosition = pos + _offset;
+    }
+
+    private void Update()
+    {
+        FollowMouse();
     }
 }

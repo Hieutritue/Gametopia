@@ -370,6 +370,7 @@ MonoBehaviour:
   _jumpFeedback: {fileID: 2680548794564382657}
   _mineFeedback: {fileID: 8741943522656754573}
   _moveFeedback: {fileID: 8262702960486733370}
+  _cooldownMult: 1
 --- !u!1 &8240191081026507396
 GameObject:
   m_ObjectHideFlags: 0
